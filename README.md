@@ -25,24 +25,23 @@ CITATION
 This dataset includes annotated 3D point cloud scans of several plant species for various plant organs (e.g., embryonic leaves, petioles, stems, etc.). 
 The data was collected using the LeasyScan high-throughput phenotyping platform, which uses **Phenospex PlantEye F600** scanners. The dataset is ideal for use in, e.g., **3D computer vision**, **plant phenotyping** research.
 
-| Name                                           | 	Count |
-|------------------------------------------------|--------|
-| **Total number of scans**                      | 	223   |
-| Scans of common bean specie                    | 	50    |
-| Scans of cowpea specie                         | 	45    |
-| Scans of lima bean specie                      | 	58    |
-| Scans of mungbean specie                       | 	71    |
-| **Scans with fully annotated plants**          | 	220   |
-| Scans with fully annotated plants using organs | 	141   |
-| Scans with unannotated plants using organs     | 	85    |
-| Scans containing unannotated plants            | 	3     |
-| **Annotated classes**                          | 	5     |
-| **Annotated objects (all classes)**            | 	3 712 |
-| Annotated objects (Embryonic leaf)             | 	1287  |
-| Annotated objects (Leaf)                       | 	1224  |
-| Annotated objects (Petiole)                    | 	814   |
-| Annotated objects (Stem)                       | 	88    |
-| Annotated objects (Plant)                      | 	299   |
+| Name                                               | 	Count |
+|----------------------------------------------------|--------|
+| **Total number of scans**                          | 	223   |
+| Scans of common bean specie                        | 	50    |
+| Scans of cowpea specie                             | 	45    |
+| Scans of lima bean specie                          | 	58    |
+| Scans of mungbean specie                           | 	71    |
+| **Scans with all plants annotated using organs**   | 	141   |
+| Scans containing plants unannotated using organs   | 	85    |
+| Scans containing some unannotated plants           | 	3     |
+| **Annotated classes**                              | 	5     |
+| **Annotated objects (all classes)**                | 	3 712 |
+| Annotated objects (Embryonic leaf)                 | 	1287  |
+| Annotated objects (Leaf)                           | 	1224  |
+| Annotated objects (Petiole)                        | 	814   |
+| Annotated objects (Stem)                           | 	88    |
+| Annotated objects (Plant)                          | 	299   |
 
 
 ## Dataset Structure
