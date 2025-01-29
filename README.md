@@ -2,6 +2,8 @@
 
 Living [repository](https://github.com/kit-pef-czu-cz/3d-point-cloud-dataset-plants) of **3D Point Cloud plant scans**. This dataset provides high-throughput, organ-level annotated 3D point cloud scans of plants, collected using the LeasyScan phenotyping platform.
 
+The original, fixed repository can be found at Figshare: https://doi.org/10.6084/m9.figshare.28270742 
+
 If you find the the dataset useful, please cite the original paper **Annotated 3D Point Cloud Dataset of Broad-Leaf Legumes Captured by High-Throughput Phenotyping Platform** published in Scientific Data:
 ```
 CITATION
