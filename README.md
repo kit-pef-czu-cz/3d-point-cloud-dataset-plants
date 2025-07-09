@@ -62,7 +62,7 @@ root/
 │   ├── preprocess.py   # Preprocessing pipeline
 │   └── generate\_cuboids.py   # Script for generating cuboids
 │
-├── LICENSE.md      # Full CC BY-SA 4.0 license
+├── LICENSE.md      # Full CC BY 4.0 license
 └── README.md       # This documentation in Markdown format
 ````
 
@@ -95,7 +95,7 @@ The Plant class was added for the plants that are, e.g., distorted by wind and d
 
 ## Data Format
 
-* Raw data are proviuded in **.PLY format**; see https://paulbourke.net/dataformats/ply/ for details. 
+* Raw data are provided in **.PLY format**; see https://paulbourke.net/dataformats/ply/ for details. 
 * Annotated point clouds are provided in **.PCD format**; see https://pcl.readthedocs.io/projects/tutorials/en/latest/pcd_file_format.html for details.
 * Annotations:
   * Generated cuboids are using KITTI format; see https://github.com/dtczhl/dtc-KITTI-For-Beginners/blob/master/README.md for details.
@@ -123,4 +123,4 @@ This dataset was developed with support from:
 For questions or collaborations, please contact:
 
 * **Jan Masner**: CZU Prague; [masner@pef.czu.cz](mailto:masner@pef.czu.cz) (technical area)
-* or **Jana Kholová**: CZU Prague and ICRISAT; [kholova@pef.czu.cz](mailto:kholova@pef.czu.cz) (plant phenotyping)
+* or **Jana Kholová**: CZU Prague and ICRISAT (formerly); [kholova@pef.czu.cz](mailto:kholova@pef.czu.cz) (plant phenotyping)
