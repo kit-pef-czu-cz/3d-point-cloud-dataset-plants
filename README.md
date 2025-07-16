@@ -93,6 +93,21 @@ Annotations are provided for the following plant organs:
 
 The Plant class was added for the plants that are, e.g., distorted by wind and do not allow humans to distinguish the plant organs.
 
+Annotations for plant organs to track their assignment to individual plants are in the `Annotation data.csv` file. It contains IDs of annotated objects. A single line represents an individual plant and its organs. The following table provides a description column.
+
+| Column name        | Content description                                                                                                                                                                |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Specie             | Name of the plant specie that the file contains.                                                                                                                                    |
+| Exp. num.          | Number of experiment, under which the scan was obtained at ICRISAT.                                                                                                                  |
+| Bar code           | Identification of a section within the experiment (position in the LeasyScan platform).                                                                                              |
+| Tray               | Identification of the tray within the section.                                                                                                                                      |
+| Date time          | Timestamp of the scan in format YYYYMMDDTHHMMSS. The “T” is a divider.                                                                                                                |
+| Full-Part-Organs   | “Full” determines that all organs of all plants in the scan were fully annotated. “Part” means the scan contains plant(s) where it is not possible to recognize their organs.         |
+| Full-Part-Plants   | “Full” determines whether all plants in the scan were annotated at least using the Plant class. “Part” means there are two or more plants in the scan that overlap and can’t be distinguished from each other. |
+| File name          | Name of the file in the provided dataset. The name consists of the following columns, divided by dash (“-”): Exp. Num., Bar code, Tray, Date time.                                     |
+| Obj ID X           | Multiple columns named “Obj. ID X” contain IDs of objects (annotated classes) that belong to one plant.                                                                              |
+
+
 ## Data Format
 
 * Raw data are provided in **.PLY format**; see https://paulbourke.net/dataformats/ply/ for details. 
@@ -103,7 +118,7 @@ The Plant class was added for the plants that are, e.g., distorted by wind and d
 
 ## License
 
-This dataset and associated code are released under the [CC BY-SA 4.0](LICENSE.md).
+This dataset is released under the [CC BY 4.0](LICENSE.md). The associated source code (`Code` folder) is released under Apache 2.0 license (LICENSE-code.md). 
 
 ## Contributing-Collaborating
 
