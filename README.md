@@ -17,6 +17,7 @@ CITATION
 *   [Raw data preprocessing](#raw-data-preprocessing)
 *   [Data Annotation](#data-annotation)
 *   [Data Format](#data-format)
+*   [Baseline evaluation on object detection models](#baseline-evaluation-on-object-detection-models)
 *   [License](#license)
 *   [Contributing-Collaborating](#contributing-collaborating)
 *   [Acknowledgements](#acknowledgements)
@@ -58,9 +59,10 @@ root/
 │   ├── Segments-ai annotation format.md # description of the segments.ai annotation format 
 │   └── Segments-ai annotations.json     # segmentation annotations (point-based) using the abovementioned format from the Segments.ai platform
 │
-├── code/               # Preprocessing and cuboid generation scripts
-│   ├── preprocess.py   # Preprocessing pipeline
-│   └── generate\_cuboids.py   # Script for generating cuboids
+├── code/                      # Preprocessing and cuboid generation scripts
+│   ├── Baseline evaluation/   # Baseline evaluation on SECOND and PointRCNN models - code and detailed results using nested cross-validation
+│   ├── Preprocess/            # Preprocessing pipeline
+│   └── Cuboids generation/    # Script for generating cuboids in KITTI format
 │
 ├── LICENSE.md      # Full CC BY 4.0 license
 └── README.md       # This documentation in Markdown format
@@ -115,6 +117,9 @@ Annotations for plant organs to track their assignment to individual plants are 
 * Annotations:
   * Generated cuboids are using KITTI format; see https://github.com/dtczhl/dtc-KITTI-For-Beginners/blob/master/README.md for details.
   * Segmentation annotations are in the original format from the Segments.ai platform, see `Segments-ai annotation format.md`.
+
+## Baseline evaluation on object detection models
+We conducted baseline experiments to assess the utility and applicability of the presented dataset using two standard object detection architectures: SECOND, which operates on voxel grids, and PointRCNN, which processes raw points. The codebase utilized the OpenPCDet library (https://github.com/open-mmlab/OpenPCDet) with minor modifications tailored to our dataset. For details on the training procedure see the paper. For reproducing the results, see `Code/Baseline evaluation/README.md`.  
 
 ## License
 
