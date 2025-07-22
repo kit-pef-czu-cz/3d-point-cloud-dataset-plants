@@ -1,0 +1,1 @@
+The `pointrcnn/` and `second/` subfolders contain per-epoch evaluation metrics on the training and validation sets and post-training evaluation metrics on the test set for each nested cross-validation set. These are plotted in `plots/`. Statistical summaries over all CV sets are in the `summary.xlsx`, `summary_pointrcnn.csv` and `summary_second.csv` files.

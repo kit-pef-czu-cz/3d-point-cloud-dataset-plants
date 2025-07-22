@@ -1,0 +1,40 @@
+DATASET: 'CustomDataset'
+DATA_PATH: '../data/ci11_oi3s-t2-v4'
+POINT_CLOUD_RANGE: [-320, -224, -192, 320, 224, 192]
+
+MAP_CLASS_TO_KITTI: {
+    'Plant': 'Car',
+}
+
+# CULS_AUGMENTS: ["A1", "A1z60", "A1z90", "A2b_07", "A205"]
+CULS_AUGMENTS: []
+CULS_AUGMENTS_VAL: False
+
+
+POINT_FEATURE_ENCODING: {
+    encoding_type: absolute_coordinates_encoding,
+    used_feature_list: ['x', 'y', 'z'],
+    src_feature_list: ['x', 'y', 'z'],
+}
+
+DATA_AUGMENTOR:
+    DISABLE_AUG_LIST: ['placeholder']
+    AUG_CONFIG_LIST: []
+
+DATA_PROCESSOR:
+    - NAME: mask_points_and_boxes_outside_range
+      REMOVE_OUTSIDE_BOXES: True
+
+    - NAME: shuffle_points
+      SHUFFLE_ENABLED: {
+        'train': True,
+        'test': False
+      }
+
+    - NAME: transform_points_to_voxels
+      VOXEL_SIZE: [2, 2, 2]
+      MAX_POINTS_PER_VOXEL: 50
+      MAX_NUMBER_OF_VOXELS: {
+        'train': 24000,
+        'test': 80000
+      }
