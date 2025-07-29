@@ -60,10 +60,11 @@ root/
 │   └── Segments-ai annotations.json     # segmentation annotations (point-based) using the abovementioned format from the Segments.ai platform
 │
 ├── code/                      # Preprocessing and cuboid generation scripts
-│   ├── Baseline evaluation/   # Baseline evaluation on SECOND and PointRCNN models - code and detailed results using nested cross-validation
 │   ├── Preprocess/            # Preprocessing pipeline
 │   └── Cuboids generation/    # Script for generating cuboids in KITTI format
 │
+├── Baseline evaluation/      # Baseline evaluation on SECOND and PointRCNN models - code and detailed results using nested cross-validation
+|
 ├── LICENSE.md      # Full CC BY 4.0 license
 └── README.md       # This documentation in Markdown format
 ````
