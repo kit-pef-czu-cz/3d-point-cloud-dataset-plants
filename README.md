@@ -120,7 +120,7 @@ Annotations for plant organs to track their assignment to individual plants are 
   * Segmentation annotations are in the original format from the Segments.ai platform, see `Segments-ai annotation format.md`.
 
 ## Baseline evaluation on object detection models
-We conducted baseline experiments to assess the utility and applicability of the presented dataset using two standard object detection architectures: SECOND, which operates on voxel grids, and PointRCNN, which processes raw points. The codebase utilized the OpenPCDet library (https://github.com/open-mmlab/OpenPCDet) with minor modifications tailored to our dataset. For details on the training procedure see the paper. For reproducing the results, see `Code/Baseline evaluation/README.md`.  
+We conducted baseline experiments to assess the utility and applicability of the presented dataset using two standard object detection architectures: SECOND, which operates on voxel grids, and PointRCNN, which processes raw points. The codebase utilized the OpenPCDet library (https://github.com/open-mmlab/OpenPCDet) with minor modifications tailored to our dataset. For details on the training procedure see the paper. For reproducing the results, see `Baseline evaluation/README.md`.  
 
 ## License
 
