@@ -57,7 +57,8 @@ root/
 │   ├── Annotation data.csv              # A CSV (and excel) file that contains associations of annotated objects and individual plants in a scan file. A single line in the file represents an individual plant.
 │   ├── Raw data.zip                     # Raw data from the scanner. There are always two files (each from a single scanner) for each bar code
 │   ├── Segments-ai annotation format.md # description of the segments.ai annotation format 
-│   └── Segments-ai annotations.json     # segmentation annotations (point-based) using the abovementioned format from the Segments.ai platform
+│   ├── Segments-ai annotations.json     # segmentation annotations (point-based) using the abovementioned format from the Segments.ai platform
+│   └── MIAPPE_data.xlsx                 # MIAPPE-compliant (Minimum Information About a Plant Phenotyping Experiment) data sheet including mapping to the Annotation data.csv file.
 │
 ├── code/                      # Preprocessing and cuboid generation scripts
 │   ├── Preprocess/            # Preprocessing pipeline
