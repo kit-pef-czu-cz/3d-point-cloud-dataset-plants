@@ -6,7 +6,9 @@ The original, fixed repository can be found at Figshare: https://doi.org/10.6084
 
 If you find the the dataset useful, please cite the original paper **Annotated 3D Point Cloud Dataset of Broad-Leaf Legumes Captured by High-Throughput Phenotyping Platform** published in Scientific Data:
 ```
-Galba, A., Masner, J., Kholová, J. et al. Annotated 3D Point Cloud Dataset of Broad-Leaf Legumes Captured by High-Throughput Phenotyping Platform. Sci Data 12, 1764 (2025). https://doi.org/10.1038/s41597-025-06049-7
+Galba, A., Masner, J., Kholová, J. et al. Annotated 3D Point Cloud Dataset of Broad-Leaf Legumes
+Captured by High-Throughput Phenotyping Platform. Sci Data 12, 1764 (2025).
+https://doi.org/10.1038/s41597-025-06049-7
 ```
 
 ## Table of Contents
