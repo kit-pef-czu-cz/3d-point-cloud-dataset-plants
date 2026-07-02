@@ -32,11 +32,11 @@ The data was collected using the LeasyScan high-throughput phenotyping platform,
 
 | Name                                               | 	Count |
 |----------------------------------------------------|--------|
-| **Total number of scans**                          | 	223   |
+| **Total number of scans**                          | 	256   |
 | Scans of common bean specie                        | 	50    |
-| Scans of cowpea specie                             | 	45    |
+| Scans of cowpea specie                             | 	46    |
 | Scans of lima bean specie                          | 	58    |
-| Scans of mungbean specie                           | 	71    |
+| Scans of mungbean specie                           | 	102   |
 | **Scans with all plants annotated using organs**   | 	141   |
 | Scans containing plants unannotated using organs   | 	85    |
 | Scans containing some unannotated plants           | 	3     |
