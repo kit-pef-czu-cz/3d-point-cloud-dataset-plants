@@ -41,12 +41,12 @@ The data was collected using the LeasyScan high-throughput phenotyping platform,
 | Scans containing plants unannotated using organs   | 	85    |
 | Scans containing some unannotated plants           | 	3     |
 | **Annotated classes**                              | 	5     |
-| **Annotated objects (all classes)**                | 	3 712 |
+| **Annotated objects (all classes)**                | 	3 952 |
 | Annotated objects (Embryonic leaf)                 | 	1287  |
 | Annotated objects (Leaf)                           | 	1224  |
 | Annotated objects (Petiole)                        | 	814   |
 | Annotated objects (Stem)                           | 	88    |
-| Annotated objects (Plant)                          | 	299   |
+| Annotated objects (Plant)                          | 	539   |
 
 
 ## Dataset Structure
